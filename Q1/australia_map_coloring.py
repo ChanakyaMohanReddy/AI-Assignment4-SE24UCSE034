@@ -43,3 +43,4 @@ solution = solve_map_coloring(australia, colors)
 print("Australia Map Coloring Solution:")
 for region in solution:
     print(region, "->", solution[region])
+
