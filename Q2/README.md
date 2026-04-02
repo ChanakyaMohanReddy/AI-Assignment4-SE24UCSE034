@@ -22,6 +22,13 @@ Each district is treated as a variable, and colors are assigned one by one.
 Before assigning a color, the program checks whether any neighboring district already has the same color.  
 If a conflict occurs, the algorithm backtracks and tries another color.
 
+## Conclusion
+The Telangana Map Coloring problem was successfully solved using the Constraint Satisfaction Problem (CSP) approach with backtracking.
+
+All districts were assigned colors such that no two adjacent districts share the same color, satisfying the given constraints.
+
+This demonstrates how CSP techniques can be effectively applied to solve real-world problems like map coloring.
+
 ## Output
 ```text
 Telangana Map Coloring:
